@@ -1,0 +1,1195 @@
+{
+	"_type": "Project",
+	"_id": "PROJ_DOC_V2",
+	"name": "Gestion_Docentes_CU",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "MODEL_001",
+			"_parent": {
+				"$ref": "PROJ_DOC_V2"
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLPackage",
+					"_id": "PKG_DOC_001",
+					"_parent": {
+						"$ref": "MODEL_001"
+					},
+					"name": "Gestión de Docentes",
+					"ownedElements": [
+						{
+							"_type": "UMLPackage",
+							"_id": "PKG_FROM_001",
+							"_parent": {
+								"$ref": "PKG_DOC_001"
+							},
+							"name": "GESTIÓN DE DOCENTES\n(from PAQUETES)",
+							"ownedElements": [
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGedjCGksB/v5s=",
+									"_parent": {
+										"$ref": "PKG_FROM_001"
+									},
+									"source": {
+										"$ref": "PKG_FROM_001"
+									},
+									"target": {
+										"$ref": "UC_22"
+									},
+									"stereotype": "trace"
+								},
+								{
+									"_type": "UMLDependency",
+									"_id": "AAAAAAGedjCaBcCQmrE=",
+									"_parent": {
+										"$ref": "PKG_FROM_001"
+									},
+									"source": {
+										"$ref": "PKG_FROM_001"
+									},
+									"target": {
+										"$ref": "UC_31"
+									},
+									"stereotype": "trace"
+								}
+							]
+						},
+						{
+							"_type": "UMLDependency",
+							"_id": "AAAAAAGedjAYY8Btt0k=",
+							"_parent": {
+								"$ref": "PKG_DOC_001"
+							},
+							"source": {
+								"$ref": "PKG_DOC_001"
+							},
+							"target": {
+								"$ref": "UC_21"
+							},
+							"stereotype": "trace"
+						}
+					]
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "UC_21",
+					"_parent": {
+						"$ref": "MODEL_001"
+					},
+					"name": "Registrar Docente\n(from CU21)"
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "UC_22",
+					"_parent": {
+						"$ref": "MODEL_001"
+					},
+					"name": "Asignar Docente a Grupo\n(from CU22)"
+				},
+				{
+					"_type": "UMLUseCase",
+					"_id": "UC_31",
+					"_parent": {
+						"$ref": "MODEL_001"
+					},
+					"name": "Importar Cuentas Excel/CSV\n(from CU31)"
+				},
+				{
+					"_type": "UMLDependency",
+					"_id": "DEP_21",
+					"_parent": {
+						"$ref": "MODEL_001"
+					},
+					"source": {
+						"$ref": "PKG_DOC_001"
+					},
+					"target": {
+						"$ref": "UC_21"
+					},
+					"stereotype": "trace"
+				},
+				{
+					"_type": "UMLDependency",
+					"_id": "DEP_22",
+					"_parent": {
+						"$ref": "MODEL_001"
+					},
+					"source": {
+						"$ref": "PKG_DOC_001"
+					},
+					"target": {
+						"$ref": "UC_22"
+					},
+					"stereotype": "trace"
+				},
+				{
+					"_type": "UMLDependency",
+					"_id": "DEP_31",
+					"_parent": {
+						"$ref": "MODEL_001"
+					},
+					"source": {
+						"$ref": "PKG_DOC_001"
+					},
+					"target": {
+						"$ref": "UC_31"
+					},
+					"stereotype": "trace"
+				},
+				{
+					"_type": "UMLUseCaseDiagram",
+					"_id": "DIAG_001",
+					"_parent": {
+						"$ref": "MODEL_001"
+					},
+					"name": "5.1.2 Gestión de Docentes - Paquetes y Casos de Uso",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLPackageView",
+							"_id": "VPKG_001",
+							"_parent": {
+								"$ref": "DIAG_001"
+							},
+							"model": {
+								"$ref": "PKG_DOC_001"
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGedi1/hcAF8A8=",
+									"_parent": {
+										"$ref": "VPKG_001"
+									},
+									"model": {
+										"$ref": "PKG_DOC_001"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/hcAG478=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/hcAF8A8="
+											},
+											"visible": false,
+											"font": "Arial;12;NaN",
+											"height": 12
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/hcAHMH0=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/hcAF8A8="
+											},
+											"font": "Arial;12;1",
+											"left": 65,
+											"top": 166,
+											"width": 235,
+											"height": 12,
+											"text": "Gestión de Docentes"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/hcAI/Ig=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/hcAF8A8="
+											},
+											"visible": false,
+											"font": "Arial;12;NaN",
+											"width": 68.009765625,
+											"height": 12,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/hcAJ6Kg=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/hcAF8A8="
+											},
+											"visible": false,
+											"font": "Arial;12;NaN",
+											"height": 12,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;12;NaN",
+									"left": 60,
+									"top": 159,
+									"width": 245,
+									"height": 24,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGedi1/hcAG478="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGedi1/hcAHMH0="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGedi1/hcAI/Ig="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGedi1/hcAJ6Kg="
+									}
+								}
+							],
+							"font": "Arial;12;NaN",
+							"left": 60,
+							"top": 144,
+							"width": 245,
+							"height": 125,
+							"nameCompartment": {
+								"$ref": "AAAAAAGedi1/hcAF8A8="
+							}
+						},
+						{
+							"_type": "UMLPackageView",
+							"_id": "VPKG_FROM_001",
+							"_parent": {
+								"$ref": "DIAG_001"
+							},
+							"model": {
+								"$ref": "PKG_FROM_001"
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGedi1/hcAL0X4=",
+									"_parent": {
+										"$ref": "VPKG_FROM_001"
+									},
+									"model": {
+										"$ref": "PKG_FROM_001"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/hcAMYqw=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/hcAL0X4="
+											},
+											"visible": false,
+											"font": "Arial;11;NaN",
+											"height": 11
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/hcANhEc=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/hcAL0X4="
+											},
+											"font": "Arial;11;1",
+											"left": 61,
+											"top": 214,
+											"width": 229.5927734375,
+											"height": 11,
+											"text": "GESTIÓN DE DOCENTES\n(from PAQUETES)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/hcAOX8A=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/hcAL0X4="
+											},
+											"visible": false,
+											"font": "Arial;11;NaN",
+											"width": 135.10986328125,
+											"height": 11,
+											"text": "(from Gestión de Docentes)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/hcAPgMc=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/hcAL0X4="
+											},
+											"visible": false,
+											"font": "Arial;11;NaN",
+											"height": 11,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;11;NaN",
+									"left": 56,
+									"top": 207,
+									"width": 239.5927734375,
+									"height": 23,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGedi1/hcAMYqw="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGedi1/hcANhEc="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGedi1/hcAOX8A="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGedi1/hcAPgMc="
+									}
+								}
+							],
+							"font": "Arial;11;NaN",
+							"left": 56,
+							"top": 192,
+							"width": 239.5927734375,
+							"height": 46,
+							"nameCompartment": {
+								"$ref": "AAAAAAGedi1/hcAL0X4="
+							}
+						},
+						{
+							"_type": "UMLUseCaseView",
+							"_id": "VUC_21",
+							"_parent": {
+								"$ref": "DIAG_001"
+							},
+							"model": {
+								"$ref": "UC_21"
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGedi1/hcARkdM=",
+									"_parent": {
+										"$ref": "VUC_21"
+									},
+									"model": {
+										"$ref": "UC_21"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/hcASvBw=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/hcARkdM="
+											},
+											"visible": false,
+											"font": "Arial;11;NaN",
+											"height": 11
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/hcATZoY=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/hcARkdM="
+											},
+											"font": "Arial;11;1",
+											"left": 504.5,
+											"top": 84.5,
+											"width": 160,
+											"height": 11,
+											"text": "Registrar Docente\n(from CU21)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/hcAUPBU=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/hcARkdM="
+											},
+											"visible": false,
+											"font": "Arial;11;NaN",
+											"width": 64,
+											"height": 11,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/hcAVZQU=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/hcARkdM="
+											},
+											"visible": false,
+											"font": "Arial;11;NaN",
+											"height": 11,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;11;NaN",
+									"left": 499.5,
+									"top": 77.5,
+									"width": 170.7568359375,
+									"height": 23,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGedi1/hcASvBw="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGedi1/hcATZoY="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGedi1/hcAUPBU="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGedi1/hcAVZQU="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGedi1/icAWGhY=",
+									"_parent": {
+										"$ref": "VUC_21"
+									},
+									"model": {
+										"$ref": "UC_21"
+									},
+									"font": "Arial;11;NaN",
+									"left": 464,
+									"top": 106,
+									"width": 241,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGedi1/icAXcMo=",
+									"_parent": {
+										"$ref": "VUC_21"
+									},
+									"model": {
+										"$ref": "UC_21"
+									},
+									"font": "Arial;11;NaN",
+									"left": 464,
+									"top": 116,
+									"width": 241,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGedi1/icAYSno=",
+									"_parent": {
+										"$ref": "VUC_21"
+									},
+									"model": {
+										"$ref": "UC_21"
+									},
+									"visible": false,
+									"font": "Arial;11;NaN",
+									"left": 144,
+									"top": -24,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGedi1/icAZH0g=",
+									"_parent": {
+										"$ref": "VUC_21"
+									},
+									"model": {
+										"$ref": "UC_21"
+									},
+									"visible": false,
+									"font": "Arial;11;NaN",
+									"left": 144,
+									"top": -24,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLExtensionPointCompartmentView",
+									"_id": "AAAAAAGedi1/icAaEEU=",
+									"_parent": {
+										"$ref": "VUC_21"
+									},
+									"model": {
+										"$ref": "UC_21"
+									},
+									"visible": false,
+									"font": "Arial;11;NaN",
+									"left": 144,
+									"top": -24,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;11;NaN",
+							"left": 464,
+							"top": 72,
+							"width": 241,
+							"height": 55,
+							"nameCompartment": {
+								"$ref": "AAAAAAGedi1/hcARkdM="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGedi1/icAWGhY="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGedi1/icAXcMo="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGedi1/icAYSno="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGedi1/icAZH0g="
+							},
+							"extensionPointCompartment": {
+								"$ref": "AAAAAAGedi1/icAaEEU="
+							}
+						},
+						{
+							"_type": "UMLUseCaseView",
+							"_id": "VUC_22",
+							"_parent": {
+								"$ref": "DIAG_001"
+							},
+							"model": {
+								"$ref": "UC_22"
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGedi1/icAcj7s=",
+									"_parent": {
+										"$ref": "VUC_22"
+									},
+									"model": {
+										"$ref": "UC_22"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/icAdm1c=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/icAcj7s="
+											},
+											"visible": false,
+											"font": "Arial;11;NaN",
+											"height": 11
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/icAeC0o=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/icAcj7s="
+											},
+											"font": "Arial;11;1",
+											"left": 512.5,
+											"top": 180.5,
+											"width": 198,
+											"height": 11,
+											"text": "Asignar Docente a Grupo\n(from CU22)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/icAfXqg=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/icAcj7s="
+											},
+											"visible": false,
+											"font": "Arial;11;NaN",
+											"width": 64,
+											"height": 11,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/icAg6j8=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/icAcj7s="
+											},
+											"visible": false,
+											"font": "Arial;11;NaN",
+											"height": 11,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;11;NaN",
+									"left": 507.5,
+									"top": 173.5,
+									"width": 208.63916015625,
+									"height": 23,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGedi1/icAdm1c="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGedi1/icAeC0o="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGedi1/icAfXqg="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGedi1/icAg6j8="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGedi1/icAh2Oc=",
+									"_parent": {
+										"$ref": "VUC_22"
+									},
+									"model": {
+										"$ref": "UC_22"
+									},
+									"font": "Arial;11;NaN",
+									"left": 464,
+									"top": 202,
+									"width": 295,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGedi1/icAi3hk=",
+									"_parent": {
+										"$ref": "VUC_22"
+									},
+									"model": {
+										"$ref": "UC_22"
+									},
+									"font": "Arial;11;NaN",
+									"left": 464,
+									"top": 212,
+									"width": 295,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGedi1/icAjL94=",
+									"_parent": {
+										"$ref": "VUC_22"
+									},
+									"model": {
+										"$ref": "UC_22"
+									},
+									"visible": false,
+									"font": "Arial;11;NaN",
+									"left": 144,
+									"top": -22,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGedi1/icAkBFA=",
+									"_parent": {
+										"$ref": "VUC_22"
+									},
+									"model": {
+										"$ref": "UC_22"
+									},
+									"visible": false,
+									"font": "Arial;11;NaN",
+									"left": 144,
+									"top": -22,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLExtensionPointCompartmentView",
+									"_id": "AAAAAAGedi1/icAlwtM=",
+									"_parent": {
+										"$ref": "VUC_22"
+									},
+									"model": {
+										"$ref": "UC_22"
+									},
+									"visible": false,
+									"font": "Arial;11;NaN",
+									"left": 144,
+									"top": -22,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;11;NaN",
+							"left": 464,
+							"top": 168,
+							"width": 295,
+							"height": 55,
+							"nameCompartment": {
+								"$ref": "AAAAAAGedi1/icAcj7s="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGedi1/icAh2Oc="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGedi1/icAi3hk="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGedi1/icAjL94="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGedi1/icAkBFA="
+							},
+							"extensionPointCompartment": {
+								"$ref": "AAAAAAGedi1/icAlwtM="
+							}
+						},
+						{
+							"_type": "UMLUseCaseView",
+							"_id": "VUC_31",
+							"_parent": {
+								"$ref": "DIAG_001"
+							},
+							"model": {
+								"$ref": "UC_31"
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGedi1/icAnYQM=",
+									"_parent": {
+										"$ref": "VUC_31"
+									},
+									"model": {
+										"$ref": "UC_31"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/icAo284=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/icAnYQM="
+											},
+											"visible": false,
+											"font": "Arial;11;NaN",
+											"height": 11
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/icApDC4=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/icAnYQM="
+											},
+											"font": "Arial;11;1",
+											"left": 499.5,
+											"top": 252.5,
+											"width": 214,
+											"height": 11,
+											"text": "Importar Cuentas Excel/CSV\n(from CU31)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/icAqtNU=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/icAnYQM="
+											},
+											"visible": false,
+											"font": "Arial;11;NaN",
+											"width": 64,
+											"height": 11,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedi1/icArDh8=",
+											"_parent": {
+												"$ref": "AAAAAAGedi1/icAnYQM="
+											},
+											"visible": false,
+											"font": "Arial;11;NaN",
+											"height": 11,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;11;NaN",
+									"left": 494.5,
+									"top": 245.5,
+									"width": 224.5537109375,
+									"height": 23,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGedi1/icAo284="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGedi1/icApDC4="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGedi1/icAqtNU="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGedi1/icArDh8="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAGedi1/icAsISM=",
+									"_parent": {
+										"$ref": "VUC_31"
+									},
+									"model": {
+										"$ref": "UC_31"
+									},
+									"font": "Arial;11;NaN",
+									"left": 448,
+									"top": 274,
+									"width": 317,
+									"height": 10
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAGedi1/icAtVL8=",
+									"_parent": {
+										"$ref": "VUC_31"
+									},
+									"model": {
+										"$ref": "UC_31"
+									},
+									"font": "Arial;11;NaN",
+									"left": 448,
+									"top": 284,
+									"width": 317,
+									"height": 10
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAGedi1/icAu0kI=",
+									"_parent": {
+										"$ref": "VUC_31"
+									},
+									"model": {
+										"$ref": "UC_31"
+									},
+									"visible": false,
+									"font": "Arial;11;NaN",
+									"left": 128,
+									"top": -44,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAGedi1/icAv9Y4=",
+									"_parent": {
+										"$ref": "VUC_31"
+									},
+									"model": {
+										"$ref": "UC_31"
+									},
+									"visible": false,
+									"font": "Arial;11;NaN",
+									"left": 128,
+									"top": -44,
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLExtensionPointCompartmentView",
+									"_id": "AAAAAAGedi1/icAw7As=",
+									"_parent": {
+										"$ref": "VUC_31"
+									},
+									"model": {
+										"$ref": "UC_31"
+									},
+									"visible": false,
+									"font": "Arial;11;NaN",
+									"left": 128,
+									"top": -44,
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;11;NaN",
+							"left": 448,
+							"top": 240,
+							"width": 317,
+							"height": 55,
+							"nameCompartment": {
+								"$ref": "AAAAAAGedi1/icAnYQM="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAGedi1/icAsISM="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAGedi1/icAtVL8="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAGedi1/icAu0kI="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAGedi1/icAv9Y4="
+							},
+							"extensionPointCompartment": {
+								"$ref": "AAAAAAGedi1/icAw7As="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "AAAAAAGedjAYY8BvX6M=",
+							"_parent": {
+								"$ref": "DIAG_001"
+							},
+							"model": {
+								"$ref": "AAAAAAGedjAYY8Btt0k="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGedjAYY8BwcZc=",
+									"_parent": {
+										"$ref": "AAAAAAGedjAYY8BvX6M="
+									},
+									"model": {
+										"$ref": "AAAAAAGedjAYY8Btt0k="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 388,
+									"top": 129,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGedjAYY8BvX6M="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGedjAYZsBxWk0=",
+									"_parent": {
+										"$ref": "AAAAAAGedjAYY8BvX6M="
+									},
+									"model": {
+										"$ref": "AAAAAAGedjAYY8Btt0k="
+									},
+									"font": "Arial;13;0",
+									"left": 363,
+									"top": 114,
+									"width": 43.36083984375,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGedjAYY8BvX6M="
+									},
+									"edgePosition": 1,
+									"text": "«trace»"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGedjAYZsByCSQ=",
+									"_parent": {
+										"$ref": "AAAAAAGedjAYY8BvX6M="
+									},
+									"model": {
+										"$ref": "AAAAAAGedjAYY8Btt0k="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 395,
+									"top": 158,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGedjAYY8BvX6M="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "VUC_21"
+							},
+							"tail": {
+								"$ref": "VPKG_001"
+							},
+							"lineStyle": 1,
+							"points": "305:173;479:127",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGedjAYY8BwcZc="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGedjAYZsBxWk0="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGedjAYZsByCSQ="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "AAAAAAGedjCGksCBeDQ=",
+							"_parent": {
+								"$ref": "DIAG_001"
+							},
+							"model": {
+								"$ref": "AAAAAAGedjCGksB/v5s="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGedjCGksCC4lw=",
+									"_parent": {
+										"$ref": "AAAAAAGedjCGksCBeDQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGedjCGksB/v5s="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 378,
+									"top": 184,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGedjCGksCBeDQ="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGedjCGksCDl/g=",
+									"_parent": {
+										"$ref": "AAAAAAGedjCGksCBeDQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGedjCGksB/v5s="
+									},
+									"font": "Arial;13;0",
+									"left": 356,
+									"top": 169,
+									"width": 43.36083984375,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGedjCGksCBeDQ="
+									},
+									"edgePosition": 1,
+									"text": "«trace»"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGedjCGksCEr6A=",
+									"_parent": {
+										"$ref": "AAAAAAGedjCGksCBeDQ="
+									},
+									"model": {
+										"$ref": "AAAAAAGedjCGksB/v5s="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 379,
+									"top": 213,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGedjCGksCBeDQ="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "VUC_22"
+							},
+							"tail": {
+								"$ref": "VPKG_FROM_001"
+							},
+							"lineStyle": 1,
+							"points": "296:209;463:201",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGedjCGksCC4lw="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGedjCGksCDl/g="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGedjCGksCEr6A="
+							}
+						},
+						{
+							"_type": "UMLDependencyView",
+							"_id": "AAAAAAGedjCaBcCS2i8=",
+							"_parent": {
+								"$ref": "DIAG_001"
+							},
+							"model": {
+								"$ref": "AAAAAAGedjCaBcCQmrE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGedjCaBsCThfs=",
+									"_parent": {
+										"$ref": "AAAAAAGedjCaBcCS2i8="
+									},
+									"model": {
+										"$ref": "AAAAAAGedjCaBcCQmrE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 372,
+									"top": 217,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGedjCaBcCS2i8="
+									},
+									"edgePosition": 1
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGedjCaBsCUIxk=",
+									"_parent": {
+										"$ref": "AAAAAAGedjCaBcCS2i8="
+									},
+									"model": {
+										"$ref": "AAAAAAGedjCaBcCQmrE="
+									},
+									"font": "Arial;13;0",
+									"left": 353,
+									"top": 202,
+									"width": 43.36083984375,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 30,
+									"hostEdge": {
+										"$ref": "AAAAAAGedjCaBcCS2i8="
+									},
+									"edgePosition": 1,
+									"text": "«trace»"
+								},
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAGedjCaBsCVhJY=",
+									"_parent": {
+										"$ref": "AAAAAAGedjCaBcCS2i8="
+									},
+									"model": {
+										"$ref": "AAAAAAGedjCaBcCQmrE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 369,
+									"top": 246,
+									"height": 13,
+									"alpha": -1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAGedjCaBcCS2i8="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "VUC_31"
+							},
+							"tail": {
+								"$ref": "VPKG_FROM_001"
+							},
+							"lineStyle": 1,
+							"points": "296:229;447:247",
+							"showVisibility": true,
+							"nameLabel": {
+								"$ref": "AAAAAAGedjCaBsCThfs="
+							},
+							"stereotypeLabel": {
+								"$ref": "AAAAAAGedjCaBsCUIxk="
+							},
+							"propertyLabel": {
+								"$ref": "AAAAAAGedjCaBsCVhJY="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

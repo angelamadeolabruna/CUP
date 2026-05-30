@@ -1,0 +1,448 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h38X5NjUMiT4gA=",
+	"name": "GestionDocentes",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h38X5NjUMiT4gA="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLPackage",
+					"_id": "PKG_DOCENTES_001",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Gestión de Docentes",
+					"ownedElements": [
+						{
+							"_type": "UMLPackage",
+							"_id": "PKG_FROM_PAQUETES_001",
+							"_parent": {
+								"$ref": "PKG_DOCENTES_001"
+							},
+							"name": "PAQUETES",
+							"stereotype": "from"
+						}
+					]
+				},
+				{
+					"_type": "UMLPackageDiagram",
+					"_id": "DIAG_DOCENTES_001",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Diagrama - Gestión de Docentes",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLPackageView",
+							"_id": "VIEW_PKG_DOCENTES_001",
+							"_parent": {
+								"$ref": "DIAG_DOCENTES_001"
+							},
+							"model": {
+								"$ref": "PKG_DOCENTES_001"
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAGedh7yxojPoMU=",
+									"_parent": {
+										"$ref": "VIEW_PKG_DOCENTES_001"
+									},
+									"model": {
+										"$ref": "PKG_DOCENTES_001"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedh7yxojQL1k=",
+											"_parent": {
+												"$ref": "AAAAAAGedh7yxojPoMU="
+											},
+											"visible": false,
+											"font": "Arial;12;NaN",
+											"height": 12
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedh7yxojR8ps=",
+											"_parent": {
+												"$ref": "AAAAAAGedh7yxojPoMU="
+											},
+											"font": "Arial;12;1",
+											"left": 395,
+											"top": 162,
+											"width": 321,
+											"height": 12,
+											"text": "Gestión de Docentes"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedh7yxojSG1w=",
+											"_parent": {
+												"$ref": "AAAAAAGedh7yxojPoMU="
+											},
+											"visible": false,
+											"font": "Arial;12;NaN",
+											"width": 68.009765625,
+											"height": 12,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedh7yxojTgCM=",
+											"_parent": {
+												"$ref": "AAAAAAGedh7yxojPoMU="
+											},
+											"visible": false,
+											"font": "Arial;12;NaN",
+											"height": 12,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;12;NaN",
+									"left": 390,
+									"top": 155,
+									"width": 331,
+									"height": 24,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGedh7yxojQL1k="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGedh7yxojR8ps="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGedh7yxojSG1w="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGedh7yxojTgCM="
+									}
+								},
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "VIEW_NAME_COMP_001",
+									"_parent": {
+										"$ref": "VIEW_PKG_DOCENTES_001"
+									},
+									"model": {
+										"$ref": "PKG_DOCENTES_001"
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedh7yxojVmQ4=",
+											"_parent": {
+												"$ref": "VIEW_NAME_COMP_001"
+											},
+											"font": "Arial;12;NaN",
+											"left": 395,
+											"top": 184,
+											"width": 321,
+											"height": 12
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedh7yxojW4lw=",
+											"_parent": {
+												"$ref": "VIEW_NAME_COMP_001"
+											},
+											"font": "Arial;12;1",
+											"left": 395,
+											"top": 198,
+											"width": 321,
+											"height": 12
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedh7yxojXu4s=",
+											"_parent": {
+												"$ref": "VIEW_NAME_COMP_001"
+											},
+											"font": "Arial;12;NaN",
+											"left": 395,
+											"top": 212,
+											"width": 321,
+											"height": 12
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAGedh7yxojYYoA=",
+											"_parent": {
+												"$ref": "VIEW_NAME_COMP_001"
+											},
+											"font": "Arial;12;NaN",
+											"left": 395,
+											"top": 226,
+											"width": 321,
+											"height": 12,
+											"horizontalAlignment": 1
+										},
+										{
+											"_type": "LabelView",
+											"_id": "VIEW_LABEL_STEREO_001",
+											"_parent": {
+												"$ref": "VIEW_NAME_COMP_001"
+											},
+											"visible": false,
+											"font": "Arial;12;NaN",
+											"left": 402,
+											"top": 160,
+											"width": 200,
+											"height": 12
+										},
+										{
+											"_type": "LabelView",
+											"_id": "VIEW_LABEL_NAME_001",
+											"_parent": {
+												"$ref": "VIEW_NAME_COMP_001"
+											},
+											"font": "Arial;12;NaN",
+											"left": 395,
+											"top": 240,
+											"width": 321,
+											"height": 12,
+											"text": "Gestión de Docentes"
+										}
+									],
+									"font": "Arial;12;NaN",
+									"left": 390,
+									"top": 179,
+									"width": 331,
+									"height": 78,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAGedh7yxojVmQ4="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAGedh7yxojW4lw="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAGedh7yxojXu4s="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAGedh7yxojYYoA="
+									}
+								},
+								{
+									"_type": "UMLPackageView",
+									"_id": "VIEW_PKG_FROM_001",
+									"_parent": {
+										"$ref": "VIEW_PKG_DOCENTES_001"
+									},
+									"model": {
+										"$ref": "PKG_FROM_PAQUETES_001"
+									},
+									"subViews": [
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "AAAAAAGedh7yyIjcmvo=",
+											"_parent": {
+												"$ref": "VIEW_PKG_FROM_001"
+											},
+											"model": {
+												"$ref": "PKG_FROM_PAQUETES_001"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGedh7yyIjdh8M=",
+													"_parent": {
+														"$ref": "AAAAAAGedh7yyIjcmvo="
+													},
+													"font": "Arial;12;NaN",
+													"left": 421,
+													"top": 196,
+													"width": 255,
+													"height": 12,
+													"text": "«from»"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGedh7yyIjeYMI=",
+													"_parent": {
+														"$ref": "AAAAAAGedh7yyIjcmvo="
+													},
+													"font": "Arial;12;1",
+													"left": 421,
+													"top": 210,
+													"width": 255,
+													"height": 12,
+													"text": "PAQUETES"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGedh7yyIjfYW8=",
+													"_parent": {
+														"$ref": "AAAAAAGedh7yyIjcmvo="
+													},
+													"visible": false,
+													"font": "Arial;12;NaN",
+													"width": 147.392578125,
+													"height": 12,
+													"text": "(from Gestión de Docentes)"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGedh7yyIjgp1c=",
+													"_parent": {
+														"$ref": "AAAAAAGedh7yyIjcmvo="
+													},
+													"visible": false,
+													"font": "Arial;12;NaN",
+													"height": 12,
+													"horizontalAlignment": 1
+												}
+											],
+											"font": "Arial;12;NaN",
+											"left": 416,
+											"top": 191,
+											"width": 265,
+											"height": 36,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGedh7yyIjdh8M="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGedh7yyIjeYMI="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGedh7yyIjfYW8="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGedh7yyIjgp1c="
+											}
+										},
+										{
+											"_type": "UMLNameCompartmentView",
+											"_id": "VIEW_NAME_COMP_FROM_001",
+											"_parent": {
+												"$ref": "VIEW_PKG_FROM_001"
+											},
+											"model": {
+												"$ref": "PKG_FROM_PAQUETES_001"
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGedh7yyIjiQss=",
+													"_parent": {
+														"$ref": "VIEW_NAME_COMP_FROM_001"
+													},
+													"font": "Arial;12;NaN",
+													"left": 421,
+													"top": 232,
+													"width": 255,
+													"height": 12
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGedh7yyIjj6Nc=",
+													"_parent": {
+														"$ref": "VIEW_NAME_COMP_FROM_001"
+													},
+													"font": "Arial;12;1",
+													"left": 421,
+													"top": 246,
+													"width": 255,
+													"height": 12
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGedh7yyIjkoAE=",
+													"_parent": {
+														"$ref": "VIEW_NAME_COMP_FROM_001"
+													},
+													"font": "Arial;12;NaN",
+													"left": 421,
+													"top": 260,
+													"width": 255,
+													"height": 12
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGedh7yyIjldtQ=",
+													"_parent": {
+														"$ref": "VIEW_NAME_COMP_FROM_001"
+													},
+													"font": "Arial;12;NaN",
+													"left": 421,
+													"top": 274,
+													"width": 255,
+													"height": 12,
+													"horizontalAlignment": 1
+												},
+												{
+													"_type": "LabelView",
+													"_id": "VIEW_LABEL_STEREO_FROM_001",
+													"_parent": {
+														"$ref": "VIEW_NAME_COMP_FROM_001"
+													},
+													"visible": false,
+													"font": "Arial;12;NaN",
+													"left": 422,
+													"top": 220,
+													"width": 160,
+													"height": 12
+												},
+												{
+													"_type": "LabelView",
+													"_id": "VIEW_LABEL_NAME_FROM_001",
+													"_parent": {
+														"$ref": "VIEW_NAME_COMP_FROM_001"
+													},
+													"font": "Arial;12;NaN",
+													"left": 421,
+													"top": 288,
+													"width": 255,
+													"height": 12,
+													"text": "from PAQUETES"
+												}
+											],
+											"font": "Arial;12;NaN",
+											"left": 416,
+											"top": 227,
+											"width": 265,
+											"height": 78,
+											"stereotypeLabel": {
+												"$ref": "AAAAAAGedh7yyIjiQss="
+											},
+											"nameLabel": {
+												"$ref": "AAAAAAGedh7yyIjj6Nc="
+											},
+											"namespaceLabel": {
+												"$ref": "AAAAAAGedh7yyIjkoAE="
+											},
+											"propertyLabel": {
+												"$ref": "AAAAAAGedh7yyIjldtQ="
+											}
+										}
+									],
+									"font": "Arial;12;NaN",
+									"left": 416,
+									"top": 176,
+									"width": 265,
+									"height": 129,
+									"nameCompartment": {
+										"$ref": "AAAAAAGedh7yyIjcmvo="
+									}
+								}
+							],
+							"font": "Arial;12;NaN",
+							"left": 390,
+							"top": 140,
+							"width": 331,
+							"height": 181,
+							"nameCompartment": {
+								"$ref": "AAAAAAGedh7yxojPoMU="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
