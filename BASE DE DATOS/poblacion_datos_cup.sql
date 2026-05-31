@@ -76,10 +76,9 @@ INSERT INTO periodo_admision (id_periodo, nombre, fecha_inicio, fecha_fin, estad
 -- ============================================================
 INSERT INTO carrera (id_carrera, nombre_carrera, sigla, cupos_totales, cupos_disponibles, activo) VALUES
 (1, 'Ingeniería en Sistemas Computacionales',     'ING-SIS', 200, 155, TRUE),
-(2, 'Ingeniería Industrial',                      'ING-IND', 150, 120, TRUE),
-(3, 'Ingeniería Civil',                           'ING-CIV', 180, 145, TRUE),
-(4, 'Ingeniería Eléctrica',                       'ING-ELE', 100,  88, TRUE),
-(5, 'Ingeniería Electrónica y Telecomunicaciones','ING-ELC', 120, 105, TRUE);
+(2, 'Ingeniería Informática',                     'ING-INF', 150, 120, TRUE),
+(3, 'Ingeniería en Redes y Telecomunicaciones',   'ING-RED', 180, 145, TRUE),
+(4, 'Robótica',          'ING-ROB', 100,  88, TRUE);
 
 -- ============================================================
 --  7. POSTULANTE
